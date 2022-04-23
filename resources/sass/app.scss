@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+*{
+    font-family: 'Nunito', sans-serif;
+    @apply antialiased lining-nums transition duration-300;
+}
+
+.c-input{
+    @apply p-2 rounded outline-none shadow-md shadow-slate-600;
+}
+
+@import "components/index";
+@import "products/index";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
