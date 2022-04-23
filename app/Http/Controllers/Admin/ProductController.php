@@ -17,7 +17,9 @@ class ProductController extends Controller
 
     public function index()
     {
-        return Inertia::render('Product/Index');
+        return Inertia::render('Admin/Product/Index', [
+            'products' => Product::all(),
+        ]);
     }
 
     public function create()

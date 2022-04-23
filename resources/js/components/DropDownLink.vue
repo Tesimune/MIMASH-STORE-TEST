@@ -26,9 +26,4 @@
     .dropdown-menu{
         @apply transition-all duration-300 flex flex-col overflow-hidden;
     }
-    @keyframes growDown {
-        0% {transform: scaleY(0)}
-        80% {transform: scaleY(1.1)}
-        100% {transform: scaleY(1)}
-    }
 </style>

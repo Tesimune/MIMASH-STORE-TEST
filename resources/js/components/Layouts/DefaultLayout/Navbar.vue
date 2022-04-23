@@ -10,12 +10,12 @@
             <a href="/"></a>
         </ul>
 
-        <div v-if="auth" class="relative">
+        <div v-if="auth.user" class="relative">
             <button @click="open = !open" class="flex items-center gap-1 py-2">
                 <div class="w-12 h-12 rounded-full bg-gray-100" />
             </button>
             <div :class="`dropdown ${open ? 'scale-y-100' : 'scale-y-0'}`">
-                <a v-if="auth.role == 'admin'" class="link" href="/admin">Admin Panel</a>
+                <a v-if="auth.user.role == 'admin'" class="link" href="/admin">Admin Panel</a>
                 <a v-else class="link" href="/dashboard">Dashboard</a>
                 <Link class="link hover:bg-red-100 text-red-500" href="/logout">Logout</Link>
             </div>
@@ -39,6 +39,9 @@ export default {
             open: false,
         }
     },
+    mounted() {
+        console.log(this.auth)
+    }
 }
 </script>
 
