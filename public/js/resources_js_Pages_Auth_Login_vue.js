@@ -398,7 +398,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         onClick: _cache[3] || (_cache[3] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
           return $setup.cartStore.open = false;
         }, ["self"])),
-        "class": "cart-modal"
+        "class": "cart-modal z-50"
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
         "class": "w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200",
         onClick: _cache[1] || (_cache[1] = function ($event) {
@@ -506,10 +506,10 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "flex items-center justify-between gap-5 py-3 px-24 bg-white h-[100px]"
+  "class": "flex items-center justify-between gap-5 py-3 px-5 md:px-24 bg-white h-[100px]"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<a class=\"text-2xl font-bold text-gold\" href=\"/\" data-v-fdc9ba76>Mimash</a><ul class=\"ml-auto flex items-center gap-3 uppercase text-sm font-semibold\" data-v-fdc9ba76><a href=\"/\" data-v-fdc9ba76>Home</a><a href=\"/about\" data-v-fdc9ba76>About</a><a href=\"/contact\" data-v-fdc9ba76>Contact</a><a href=\"/contact\" data-v-fdc9ba76>Help</a><a href=\"/\" data-v-fdc9ba76></a></ul>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<a class=\"text-2xl font-bold text-gold\" href=\"/\" data-v-fdc9ba76>Mimash</a><ul class=\"ml-auto hidden md:flex items-center gap-3 uppercase text-sm font-semibold\" data-v-fdc9ba76><a href=\"/\" data-v-fdc9ba76>Home</a><a href=\"/about\" data-v-fdc9ba76>About</a><a href=\"/contact\" data-v-fdc9ba76>Contact</a><a href=\"/contact\" data-v-fdc9ba76>Help</a><a href=\"/\" data-v-fdc9ba76></a></ul>", 2);
 
 var _hoisted_4 = {
   key: 0,
@@ -569,7 +569,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }),
     "class": "flex items-center gap-1 py-2"
   }, _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)("dropdown ".concat($data.open ? 'scale-y-100' : 'scale-y-0'))
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)("dropdown z-10 ".concat($data.open ? 'scale-y-100' : 'scale-y-0'))
   }, [$options.auth.user.role == 'admin' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", _hoisted_7, "Admin Panel")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("a", _hoisted_8, "Dashboard")), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     "class": "link hover:bg-red-100 text-red-500",
     href: "/logout"

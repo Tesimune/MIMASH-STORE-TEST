@@ -27638,7 +27638,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"3e1a8552e09c98a9","resources_js_Pages_Admin_Dashboard_Index_vue":"e69f361b19eafb7f","resources_js_Pages_Admin_Product_Create_vue":"7065f0f1322fb356","resources_js_Pages_Admin_Product_Index_vue":"3a6763da93bd38f9","resources_js_Pages_Auth_Login_vue":"29579f07f17c1f87","resources_js_Pages_Auth_Register_vue":"a460163cf91cfca3","resources_js_Pages_Product_Index_vue":"5863f435f42fe33f"}[chunkId] + "";
+/******/ 			return "js/" + chunkId + ".js?id=" + {"resources_js_Pages_About_vue":"3e1a8552e09c98a9","resources_js_Pages_Admin_Dashboard_Index_vue":"e69f361b19eafb7f","resources_js_Pages_Admin_Product_Create_vue":"7065f0f1322fb356","resources_js_Pages_Admin_Product_Index_vue":"3a6763da93bd38f9","resources_js_Pages_Auth_Login_vue":"93647fde12f86718","resources_js_Pages_Auth_Register_vue":"c213cfc008a53bd1","resources_js_Pages_Product_Index_vue":"17b92370f8b3d807"}[chunkId] + "";
 /******/ 		};
 /******/ 	})();
 /******/ 	

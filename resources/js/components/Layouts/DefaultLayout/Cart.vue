@@ -16,7 +16,7 @@
         </button>
 
         <Transition>
-            <div v-if="cartStore.open" @click.self="cartStore.open = false" class="cart-modal">
+            <div v-if="cartStore.open" @click.self="cartStore.open = false" class="cart-modal z-50">
                 <div class="wrapper">
                     <div class="capitalize flex justify-between items-center p-3 border-b">
                         <h3 class="text-lg">shopping cart</h3>
